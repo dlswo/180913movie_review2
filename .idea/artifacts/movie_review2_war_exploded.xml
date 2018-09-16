@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="movie_review2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/movie_review2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="movie_review2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="movie_review2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ojdbc8" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
